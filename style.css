@@ -1,27 +1,92 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(13, 35, 54);
+*{
+    text-decoration: none;
 }
 
-li{
-    float: left;
+nav{
+    background: rgb(3, 18, 68);
+    height: 80px;
+    width: 100%;
 }
 
-li a{
-    float: left;
-    display: block;
-    padding: 15px 25px;
-    size: 20px;
-    color: yellowgreen;
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 70px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 48px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 29px 13px;
+}
+
+a.active,a:hover{
+    background: #95c5e9;
+    transition: .5s;
+}
+
+.b1{
+    background-color: #95c5e9;
+    width: 100%;
+    height: 500px;
+}
+
+/* #profileImg{
     position: relative;
+    left: 130px;
+    top: 100px;
+    border: 5px solid black;
 }
+
+div p{
+    position: relative;
+    left: 190px;
+    top: 130px;
+    font-size: 40px;
+} */
 
 .profile{
-    padding-right: 250px;
-    color: aqua;
-    size: 40px;
-    text-decoration: solid;
+    position: relative;
+    left: 130px;
+    top: 100px; 
+}
+
+.profile img{
+    border: 5px solid black;
+}
+
+.profile p{
+    position: relative;
+    font-size: 40px;
+    top: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    left: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile h4{
+    position: relative;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.profTxt{
+    position: absolute;
+    margin-top: 0px;
+    font-size: 30px;
+    
 }
